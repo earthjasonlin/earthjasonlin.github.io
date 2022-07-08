@@ -47,7 +47,8 @@ function getBingImages(imgUrls) {
 
 $(document).ready(function () {
 	// 获取一言数据
-	$.get('https://v1.hitokoto.cn', function (res) {
+	// $.get('https://v1.hitokoto.cn', function (res) {
+	$.get('', function (res) {
 		$('#description').html(res.hitokoto + "<br/> -「<strong>" + res.from + "</strong>」")
 	});
 
